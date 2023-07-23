@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneByte Games</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>OneByte Games</h1>
+            <form class="pesquisar">
+                <input type="search" placeholder="Busque no site">
+                <button type="submit">Pesquisar</button>
+            </form>
+        </div>
+        <div class="btn-menu">
+            <button type="button">Abrir Menu</button>
+        </div>
+        <nav class="container">
+            <ul class="menu">
+                <li>
+                    <h3>Games</h3>
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">FPS</a>
+                        </li>
+                        <li>
+                            <a href="#">Esportes</a>
+                        </li>
+                        <li>
+                            <a href="">Corrida</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Componentes</h3>
+                    <ul class="submenu">
+                        <li>
+                            <a href="">Processadores</a>
+                        </li>
+                        <li>
+                            <a href="">Placa de Vídeo</a>
+                        </li>
+                        <li>
+                            <a href="">Mem. RAM</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <div class="clear"></div>
+        </nav>
+    </header>
+    <div class=" container">
+        <main>
+            <section class="destaque">
+                <article class="sobre">
+                    <img src="./IMG/cecile-new-gamer-31 (1).jpg" alt="">
+                    <div class="title-sobre"><h2>Sobre a Loja</h2>
+                    <h3>Há 23 anos, nossa empresa começou como uma locadora de jogos na zona sul de Joinville, fruto do sonho de dois amigos empreendedores.
+                        Com o passar do tempo, expandimos nossa atuação e, em 2000, inauguramos nossa primeira loja física, proporcionando diversão para todos.
+                        Desde então, crescemos muito!
+                        Hoje contamos com 13 lojas em Santa Catarina, uma equipe de +65 funcionários e mais de 150 mil clientes satisfeitos.</h3>
+                    </div>
+                    </article>
+            </section>
+            <section>
+                <h2>Mais Vendidos</h2>
+                <div class="produtos conteudo">
+                    <article class="produto">
+                        <a href="#">
+                            <img src="./IMG/processador-amd-ryzen-9-5950x-cache-72mb-3-4ghz-4-9ghz-max-turbo-am4-100-100000065box_1602603581_g (1).jpg" alt="">
+                            <h3>Ryzen 5 5600x</h3>
+                        </a>
+                        <p>Processador AMD Ryzen 5 5600X, 3.7GHz (4.6GHz Max Turbo), Cache 35MB, 6 Núcleos, 12 Threads, AM4.</p>
+                        <button type="button" class="carrinho">Adicionar ao carrinho</button>
+                    </article>
+                    <article class="produto">
+                        <a href="#">
+                            <img src="./IMG/placa-de-video-msi-nvidia-geforce-rtx-3060-ventus-2x-12gb-gddr6-dlss-ray-tracing-912-v397-272_1663850312_g (1).jpg" alt="">
+                            <h3>MSI RTX3060</h3>
+                        </a>
+                        <p>Placa de Vídeo RTX 3060 Ventus 2X MSI NVIDIA GeForce, 12GB GDDR6, DLSS, Ray Tracing - RTX 3060 Ventus 2X 12G OC.</p>
+                        <button type="button" class="carrinho">Adicionar ao carrinho</button>
+                    </article>
+                    <article class="produto">
+                        <a href="#">
+                            <img src="./IMG/Mem-ria-RAM-Xpg-Spectrix-D41-16GB-2x8GB-3200mhz-DDR4-RGB-Gray_1680181097_g (1).jpg" alt="">
+                            <h3>XPG Spectrix</h3>
+                        </a>
+                        <p>Memória RAM Xpg Spectrix D41 16GB (2x8GB), 3200mhz, DDR4, RGB Gray</p>
+                        <button type="button" class="carrinho">Adicionar ao carrinho</button>
+                    </article>
+                    <article class="produto">
+                        <a href="#">
+                            <img src="./IMG/console-sony-playstation-5-edicao-digital_1634132113_g (1).jpg" alt="">
+                            <h3>Playstation 5</h3>
+                        </a>
+                        <p>Console Sony Playstation 5, Edição Digital - 1214B</p>
+                        <button type="button" class="carrinho">Adicionar ao carrinho</button>
+
+                    </article>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('.btn-menu button').click(function(){
+                $('.menu').slideToggle();
+            })
+        })
+    </script>
+    </body>
+    <footer>
+        <p> </p>
+    </footer>
+</html>
